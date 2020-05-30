@@ -1,5 +1,5 @@
 ##使用
-引入music.js与music.css<br>
+引入music.js,jquery与music.css<br>
 调用createMusicPlayer<br>
 ```js
 createMusicPlayer({
