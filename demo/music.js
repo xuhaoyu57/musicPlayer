@@ -1,15 +1,3 @@
-$.ajax({
-    type: 'get',
-    url: 'https://xhydsy.cn/getMusic',
-    success(data) {
-        createMusicPlayer({
-            musicList: data,
-            musicName: 'musicName',
-            musicPath: 'path',
-            apiHost: 'https://xhydsy.cn'
-        })
-    }
-})
 
 /**
  * musicList 音乐列表数组

@@ -13,4 +13,19 @@
 </body>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="music.js"></script>
+<script>
+    $.ajax({
+        type: 'get',
+        url: 'https://xhydsy.cn/getMusic',
+        success(data) {
+            createMusicPlayer({
+                musicList: data,
+                musicName: 'musicName',
+                musicPath: 'path',
+                apiHost: 'https://xhydsy.cn'
+            })
+        }
+    })
+
+</script>
 </html>
